@@ -1,0 +1,260 @@
+h1 { 
+font-family: EB Garamond; 
+font-size: 48px; 
+font-style: normal;
+font-variant: normal; 
+font-weight: 700; 
+line-height: 38px;
+color:white; } 
+
+h2 { 
+font-family: EB Garamond; 
+font-size: 14px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 700; 
+line-height: 14px; } 
+
+.wrapper {
+	width:85%;
+	height:auto;
+}
+
+p, span, a { 
+font-family: EB Garamond; 
+font-size: 24px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 400; 
+line-height: 24px;
+color:white; } 
+
+.intro-link {
+font-family: EB Garamond; 
+font-size: 24px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 700; 
+line-height: 24px; } 
+
+.author {
+font-family: EB Garamond; 
+font-size: 13px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 400; 
+line-height: 13px; }
+
+.col-sm-4 h1 {
+	color: white;
+}
+.navbar-brand {
+  background-image: url('images/logo.png');
+  width: 78px;
+  height: 78px;
+}
+.bg-dark {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+.jumbotron {
+  background-image: url('images/slider.jpg');
+  background-size: auto auto;
+  height: 800px;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+.jumbotron h1,p {
+  color:white;
+  font-family: EB Garamond; 
+}
+.jumbotron h1 {
+  text-transform: uppercase;
+  font-size: 4.5em;
+  line-height: 65px;
+}
+.jumbotron p {
+  font-size: 2.5em;
+  line-height: 30px;
+}
+.intro {
+  margin: 370px 20px 0 0;
+  float: right;
+}
+.slider-logo {
+  display: inline-block;
+  float: left;
+  width: 120px;
+  height: 120px;
+  background-image: url('images/logo-slider.png');
+  background-size: 120px 120px;
+}
+.container-fluid {
+  padding: 0 0;
+}
+.wrapper {
+  width: 101%;
+  padding: 0 10%;
+}
+.legacy {
+  background-image:url('images/dark-bg.png');
+  background-repeat: repeat-x;
+}
+.legacy h1 {
+  font-size: 28px;
+}
+.legacy p, a, span {
+  font-size: 18px;
+  line-height: 24px;
+}
+.legacy span {
+  font-size: 14px;
+}
+.legacy a {
+  font-weight: 700;
+}
+.legacy img {
+  width: 80%;
+}
+.legacy .col-lg-8 {
+	padding-right: 5%;
+}
+.legacy .col-lg-4 {
+	text-align: right;
+}
+.pages {
+	height: 340px;
+	justify-content: center;
+}
+.teal {
+	color:#4c87a1;
+}
+.pages {
+	background-images: url('images/');
+}
+.pages h1 {
+	font-size:36px;
+	font-weight:300;
+}
+.pages p {
+	font-size:14px;
+	width:85%;
+	margin:14px auto;	
+}
+.pages a:before, .pages a:after {
+	content: "--";
+	margin:4px;
+	letter-spacing:-2px;
+	font-size:18px;
+}
+.pages .col-lg-4 {
+	height:90%;
+	max-width:30%;
+	margin:10px 12px 18px 12px;
+	background-color:#4c87a1;
+	text-align:center;
+	padding:24px;
+}
+.pages .anchor {
+	visibility:hidden;
+}
+
+.motto {
+	background-color:#4c87a1;
+}
+.motto h1, .plan h1 {
+	font-style: italic;
+}
+.motto hr, .plan hr {
+	background-color: white;
+	color:white;
+	width:30%;
+	margin:32px auto;
+}
+
+.motto p, .plan p {
+	text-align: left;
+	line-height:34px;
+}
+.plan {
+	background-color:#d0cdcf;
+}
+.plan h1 {
+	color:#4c87a1;
+}
+.plan p, .footer p {
+	color:#55575a;
+}
+.footer .col-lg-10 p, .copyright, .footer a {
+	font-family: verdana;
+	font-size:9px;
+	line-height:10px;
+}
+
+.footer .col-lg-10 {
+	max-width:75%;
+}
+
+.col-lg-10 a {
+	color:#4c87a1;
+	font-weight:700;
+}
+
+.footer .col-lg-2 {
+	max-width:25%;
+	flex:none;
+
+}
+.icons {
+	width:100%;
+	height:40px;
+	margin-bottom:10px;
+}
+
+.social {
+	background-color:gray;
+	width:30px;
+	height:30px;
+	margin:0 6px 6px;
+	float:right;
+	display:inline;
+	border:2px gray solid;
+}
+.maps {
+	content: url('images/maps.gif');
+	background-size:contain;
+}
+.email {
+	content: url('images/email.gif');
+	background-size:contain;
+}
+.facebook {
+	content: url('images/facebook.gif');
+	background-size:contain;
+}
+.linkedin {
+	content: url('images/linkedin.png');
+	background-size:contain;
+}
+.broker {
+	background-image: url('images/broker-check.png');
+	background-size:contain;
+	background-repeat: no-repeat;
+	width:150px;
+	height:45px;
+	float:right;
+	display:block;
+}
+.business-info {
+	display:block;
+	width:90%;
+	font-size:17px;
+	float:right;
+	text-align: right;
+	line-height:23px;
+}
+.copyright {
+	font-family:verdana;
+	float:right;
+	font-size: 7px;
+	text-align:right;
+}
